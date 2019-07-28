@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JFCommonLibrary_Example' do
+  pod 'JFCommonLibrary', :path => '../'
+
+  target 'JFCommonLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
