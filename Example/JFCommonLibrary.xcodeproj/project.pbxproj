@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		202860E34273F868BD35C811 /* Pods_JFCommonLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JFCommonLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C8BEDA6BE25BB0DB375267 /* Pods-JFCommonLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFCommonLibrary_Example.debug.xcconfig"; path = "Target Support Files/Pods-JFCommonLibrary_Example/Pods-JFCommonLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		30475AAA2A718B4877AE6290 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		30475AAA2A718B4877AE6290 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* JFCommonLibrary_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JFCommonLibrary_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,10 +42,10 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7163170EF5DEFE08C9FAA1D1 /* Pods-JFCommonLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFCommonLibrary_Example.release.xcconfig"; path = "Target Support Files/Pods-JFCommonLibrary_Example/Pods-JFCommonLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
-		92B72A905E9950CE538668F3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		92B72A905E9950CE538668F3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A1D7AFD24A0B4171B3668F2B /* Pods_JFCommonLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JFCommonLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA939A317C3F7EB1EAAF3501 /* Pods-JFCommonLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFCommonLibrary_Tests.release.xcconfig"; path = "Target Support Files/Pods-JFCommonLibrary_Tests/Pods-JFCommonLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D9FC07EF90BFE08C6B3FE06A /* JFCommonLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JFCommonLibrary.podspec; path = ../JFCommonLibrary.podspec; sourceTree = "<group>"; };
+		D9FC07EF90BFE08C6B3FE06A /* JFCommonLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JFCommonLibrary.podspec; path = ../JFCommonLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DED1647885971E8E26091CD3 /* Pods-JFCommonLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFCommonLibrary_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JFCommonLibrary_Tests/Pods-JFCommonLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				DED1647885971E8E26091CD3 /* Pods-JFCommonLibrary_Tests.debug.xcconfig */,
 				BA939A317C3F7EB1EAAF3501 /* Pods-JFCommonLibrary_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

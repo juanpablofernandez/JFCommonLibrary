@@ -1,0 +1,22 @@
+{
+  "name": "JFCommonLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of JFCommonLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jaypee.1797@gmail.com/JFCommonLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jaypee.1797@gmail.com": "juanpablofer17@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/jaypee.1797@gmail.com/JFCommonLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JFCommonLibrary/Classes/**/*"
+}

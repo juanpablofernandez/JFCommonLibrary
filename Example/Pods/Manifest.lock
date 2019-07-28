@@ -1,0 +1,16 @@
+PODS:
+  - JFCommonLibrary (0.1.0)
+
+DEPENDENCIES:
+  - JFCommonLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  JFCommonLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JFCommonLibrary: 2de45b9691d6fba036d5c900befc77eb3d8b8cfd
+
+PODFILE CHECKSUM: c22f14956bdb4a720d3aed50a858e5af41c0fd92
+
+COCOAPODS: 1.6.1

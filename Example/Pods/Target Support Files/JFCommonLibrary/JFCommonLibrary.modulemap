@@ -1,0 +1,6 @@
+framework module JFCommonLibrary {
+  umbrella header "JFCommonLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}
